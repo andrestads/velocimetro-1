@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+<key>CFBundleDevelopmentRegion</key>
+<string>(DEVELOPMENT_LANGUAGE)&lt;/string&gt; &lt;key&gt;CFBundleDisplayName&lt;/key&gt; &lt;string&gt;Velocimetro&lt;/string&gt; &lt;key&gt;CFBundleExecutable&lt;/key&gt; &lt;string&gt;(EXECUTABLE_NAME)</string>
+<key>CFBundleIdentifier</key>
+<string>(PRODUCT_BUNDLE_IDENTIFIER)&lt;/string&gt; &lt;key&gt;CFBundleInfoDictionaryVersion&lt;/key&gt; &lt;string&gt;6.0&lt;/string&gt; &lt;key&gt;CFBundleName&lt;/key&gt; &lt;string&gt;velocimetro&lt;/string&gt; &lt;key&gt;CFBundlePackageType&lt;/key&gt; &lt;string&gt;APPL&lt;/string&gt; &lt;key&gt;CFBundleShortVersionString&lt;/key&gt; &lt;string&gt;(FLUTTER_BUILD_NAME)</string>
+<key>CFBundleSignature</key>
+<string>????</string>
+<key>CFBundleVersion</key>
+<string>$(FLUTTER_BUILD_NUMBER)</string>
+<key>LSRequiresIPhoneOS</key>
+<true/>
+<key>UILaunchStoryboardName</key>
+<string>LaunchScreen</string>
+<key>UIMainStoryboardFile</key>
+<string>Main</string>
+<key>UISupportedInterfaceOrientations</key>
+<array>
+<string>UIInterfaceOrientationPortrait</string>
+<string>UIInterfaceOrientationLandscapeLeft</string>
+<string>UIInterfaceOrientationLandscapeRight</string>
+</array>
+<key>UISupportedInterfaceOrientations~ipad</key>
+<array>
+<string>UIInterfaceOrientationPortrait</string>
+<string>UIInterfaceOrientationPortraitUpsideDown</string>
+<string>UIInterfaceOrientationLandscapeLeft</string>
+<string>UIInterfaceOrientationLandscapeRight</string>
+</array>
+<key>CADisableMinimumFrameDurationOnPhone</key>
+<true/>
+<key>UIApplicationSupportsIndirectInputEvents</key>
+<true/>
+
+<!-- PERMISSÕES DE LOCALIZAÇÃO (Requeridas pelo Geolocator) -->
+<!-- Descrição para uso APENAS com o aplicativo aberto -->
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>O aplicativo precisa de sua localização para calcular sua velocidade e distância em tempo real.</string>
+
+<!-- Descrição para uso em SEGUNDO PLANO (Recomendado para GPS) -->
+<key>NSLocationAlwaysUsageDescription</key>
+<string>O aplicativo precisa de sua localização para calcular sua velocidade e distância.</string>
+
+<!-- Descrição para uso APENAS com o aplicativo aberto E em segundo plano -->
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>O aplicativo precisa de sua localização para calcular sua velocidade e distância em tempo real, mesmo quando minimizado.</string>
+
+</dict>
+</plist>
